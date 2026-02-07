@@ -52,3 +52,13 @@ it will be addressed promptly and respectfully.
 ## Status
 This archive is a living work and will grow slowly over time.
 
+---
+
+## Contact
+
+For corrections, credit updates, removal requests, or archive-related
+communication, please contact:
+
+📧 hillsandfoothillsarchive@gmail.com
+
+
