@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="logo.png" alt="From the Hills and Foothills – Archive Logo" width="200">
+  <img src="logo.png" alt="From the Hills and Foothills – Archive Logo" width="180">
 </p>
-
 
 # From the Hills and Foothills
 
