@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="logo.png" alt="From the Hills and Foothills – Archive Logo" width="200">
+</p>
+
+
 # From the Hills and Foothills
 
 An archive of Nepali (Gorkhali) culture, life, and landscapes  
