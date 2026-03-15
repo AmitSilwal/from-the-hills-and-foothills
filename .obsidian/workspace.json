@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "9da7e3a35ddd80b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d53e5423ec66f963",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8217dbd99a52d58",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c82df4556bff4de",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5c0c4cd2d2a41c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9aac49c35096e4c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1f411a9b65fdffb3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9f42b9681348be9b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5d199c6a79f0a25",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2fc3602efba287b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47995cc1934028b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d3d4685917dbacdf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "0ed946a3f6e88d33",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "826771127d052340",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9ad4acf2af67aeec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e8217dbd99a52d58",
+  "lastOpenFiles": [
+    "test.md",
+    "New Text Document.txt",
+    "New folder",
+    "content/06_Places/Tea_Estates/Tea_Estates_of_Dooars.md.md",
+    "content/06_Places/Tea_Estates",
+    "content/06_Places/Rivers/Toorsa River.md.md",
+    "content/06_Places/Rivers/Teesta_River.md.md",
+    "content/06_Places/Rivers/Sankosh River.md.md",
+    "content/06_Places/Rivers/Raidak River.md.md",
+    "content/06_Places/Rivers/Jaldhaka River.md.md",
+    "content/06_Places/Rivers",
+    "content/06_Places/Maps/Dooars_Research_Map.png.md",
+    "content/06_Places/Maps/Dooars_Research_Map.png",
+    "content/06_Places/Maps/Dooars_Historical_Map.md.md",
+    "content/06_Places/Maps/Dooars_Frontier_Map_1865.png.png",
+    "content/06_Places/Maps/Dooars_Frontier_Map.md.md",
+    "content/06_Places/Maps",
+    "content/06_Places/Tibet.md.md",
+    "content/06_Places/Rungeet_River.md.md",
+    "content/06_Places/Punakha.md.md",
+    "content/06_Places/Places_Index.md.md",
+    "content/06_Places/Paro.md.md",
+    "content/06_Places/Maynaguri.md.md",
+    "content/06_Places/Koomrekatta.md.md",
+    "content/06_Places/Falakata.md.md",
+    "content/06_Places/Dooars.md.md",
+    "content/06_Places/Dhamonee.md.md",
+    "content/06_Places/Dalimkote.md.md",
+    "content/06_Places/Cooch_Behar.md.md",
+    "content/06_Places/Chamurchi.md.md",
+    "content/06_Places/Bykantpore.md.md",
+    "content/06_Places/Buxa.md.md",
+    "content/06_Places/Bhutan.md.md",
+    "content/06_Places",
+    "content/10_Concepts/Plantation_System",
+    "content/10_Concepts/Human_Geography",
+    "content/10_Concepts/Frontier System",
+    "content/10_Concepts"
+  ]
+}
