@@ -1,7 +1,7 @@
 ---
 type: war
 year: 1864
-region: dooars
+region: duar
 topic: frontier_conflict
 actors: british_india, bhutan
 period: pre_1865
@@ -17,9 +17,9 @@ Related:
 [[Duar_War_Research_Hub]]
 ## Overview
 
-The Duar War (1864–1865) was a military conflict between the British Government of India and the Kingdom of Bhutan. The war resulted in the annexation of the Bengal and Assam Dooars by British India.
+The Duar War (1864–1865) was a military conflict between the British Government of India and the Kingdom of Bhutan. The war resulted in the annexation of the Bengal and Assam duar by British India.
 
-This conflict represents a major turning point in the political history of the Dooars.
+This conflict represents a major turning point in the political history of the duar.
 
 ---
 
@@ -32,7 +32,7 @@ Key problems included:
 - Bhutanese raids into plains territories.
 - Disputes with local zamindars.
 - Conflicts over the control of frontier states such as Bijni.
-- Ongoing boundary disputes in the Dooars region.
+- Ongoing boundary disputes in the duar region.
 
 Earlier diplomatic attempts to resolve these tensions were unsuccessful.
 
@@ -55,7 +55,7 @@ The mission was sent to negotiate frontier disputes but ended unsuccessfully and
 
 ## Military Campaign
 
-In **November 1864**, British forces launched military operations against Bhutan along the Dooars frontier.
+In **November 1864**, British forces launched military operations against Bhutan along the duar frontier.
 
 The British organized several military columns to advance from the plains of Bengal and Assam toward the Bhutan hills.
 
@@ -106,7 +106,7 @@ These included:
 - [[Buxa]]
 - [[Balia]]
 
-Control of these passes effectively gave the British control over the frontier gateways known as the **Dooars**.
+Control of these passes effectively gave the British control over the frontier gateways known as the **duar**.
 
 ---
 
@@ -124,7 +124,7 @@ During these attacks the British garrison at Dewangiri was forced to withdraw.
 
 ### British Reinforcements
 
-After the setback at Dewangiri, British authorities reinforced their troops in the Dooars.
+After the setback at Dewangiri, British authorities reinforced their troops in the duar.
 
 New operations were organized to secure the frontier passes.
 
@@ -144,7 +144,7 @@ The conflict ended with the signing of:
 
 [[1865_Treaty_of_Sinchula]]
 
-Under this treaty Bhutan ceded the Dooars to British India.
+Under this treaty Bhutan ceded the duar to British India.
 
 ---
 
@@ -154,11 +154,11 @@ The Duar War transformed the political geography of the region.
 
 Major outcomes included:
 
-1. British control of the Dooars.
+1. British control of the duar.
 2. Establishment of colonial administration.
 3. Opening of the region for plantation development.
 
-The war marks the beginning of the colonial transformation of the Dooars.
+The war marks the beginning of the colonial transformation of the duar.
 
 ---
 
