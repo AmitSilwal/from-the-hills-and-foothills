@@ -64,12 +64,12 @@ for root, dirs, files in os.walk(input_folder):
             with open(os.path.join(output_folder, output_file), "w", encoding="utf-8") as f:
                 f.write(template.format(title=title, content=html_content))
 
-            # store for index
+            # store for notes page
             all_pages.append((title, output_file))
 
 print("✅ All markdown files converted to HTML!")
 
-# ===== GENERATE CLEAN INDEX PAGE =====
+# ===== GENERATE NOTES PAGE (NOT HOMEPAGE) =====
 
 # Sort alphabetically
 all_pages.sort()
@@ -78,18 +78,18 @@ links = ""
 for title, html_file in all_pages:
     links += f'<li><a href="{html_file}">{title}</a></li>\n'
 
-index_html = f"""<!DOCTYPE html>
+notes_html = f"""<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>From the Hills and Foothills</title>
+  <title>Notes Archive</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-<h1>From the Hills and Foothills</h1>
-<p>Dooars Historical Archive</p>
+<h1>Notes Archive</h1>
+<p>All research notes from the archive</p>
 
 <ul>
 {links}
@@ -100,7 +100,8 @@ index_html = f"""<!DOCTYPE html>
 </html>
 """
 
-with open("index.html", "w", encoding="utf-8") as f:
-    f.write(index_html)
+# ⚠️ IMPORTANT: This now writes to notes.html (NOT index.html)
+with open("notes.html", "w", encoding="utf-8") as f:
+    f.write(notes_html)
 
-print("✅ Index page created successfully!")
+print("✅ Notes page created successfully!")
