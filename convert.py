@@ -1,5 +1,6 @@
 import markdown
 import os
+import re
 
 input_folder = "content"
 output_folder = "."
@@ -29,9 +30,20 @@ for root, dirs, files in os.walk(input_folder):
             with open(filepath, "r", encoding="utf-8") as f:
                 text = f.read()
 
+            # remove frontmatter
+            if text.startswith("---"):
+                parts = text.split("---", 2)
+                if len(parts) > 2:
+                    text = parts[2]
+
+            # convert [[links]] to html links
+            text = re.sub(r"\[\[(.*?)\]\]", r'<a href="\1.html">\1</a>', text)
+
             html_content = markdown.markdown(text)
 
-            title = file.replace(".md.md", "").replace(".md", "").replace("-", " ").title()
+            # fix title
+            title = file.replace(".md.md", "").replace(".md", "")
+            title = title.replace("_", " ").replace("-", " ").title()
 
             output_file = file.replace(".md.md", ".html").replace(".md", ".html")
 
