@@ -5,6 +5,7 @@ import re
 input_folder = "content"
 output_folder = "."
 
+# ===== HTML TEMPLATE =====
 template = """<!DOCTYPE html>
 <html>
 <head>
@@ -14,17 +15,30 @@ template = """<!DOCTYPE html>
 </head>
 <body>
 
+<div class="container">
 <h1>{title}</h1>
 
 {content}
+</div>
 
 </body>
 </html>
 """
 
+# ===== FUNCTION: CLEAN TITLE =====
+def clean_title(filename):
+    title = filename.replace(".md.md", "").replace(".md", "")
+    title = re.sub(r'^\d+_', '', title)  # remove 00_, 01_
+    title = title.replace("_", " ").replace("-", " ").title()
+    return title
+
+# ===== CONVERT MARKDOWN TO HTML =====
+all_pages = []
+
 for root, dirs, files in os.walk(input_folder):
     for file in files:
         if file.endswith(".md"):
+
             filepath = os.path.join(root, file)
 
             with open(filepath, "r", encoding="utf-8") as f:
@@ -41,13 +55,52 @@ for root, dirs, files in os.walk(input_folder):
 
             html_content = markdown.markdown(text)
 
-            # fix title
-            title = file.replace(".md.md", "").replace(".md", "")
-            title = title.replace("_", " ").replace("-", " ").title()
+            # clean title
+            title = clean_title(file)
 
             output_file = file.replace(".md.md", ".html").replace(".md", ".html")
 
+            # save html file
             with open(os.path.join(output_folder, output_file), "w", encoding="utf-8") as f:
                 f.write(template.format(title=title, content=html_content))
 
+            # store for index
+            all_pages.append((title, output_file))
+
 print("✅ All markdown files converted to HTML!")
+
+# ===== GENERATE CLEAN INDEX PAGE =====
+
+# Sort alphabetically
+all_pages.sort()
+
+links = ""
+for title, html_file in all_pages:
+    links += f'<li><a href="{html_file}">{title}</a></li>\n'
+
+index_html = f"""<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>From the Hills and Foothills</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1>From the Hills and Foothills</h1>
+<p>Dooars Historical Archive</p>
+
+<ul>
+{links}
+</ul>
+</div>
+
+</body>
+</html>
+"""
+
+with open("index.html", "w", encoding="utf-8") as f:
+    f.write(index_html)
+
+print("✅ Index page created successfully!")
