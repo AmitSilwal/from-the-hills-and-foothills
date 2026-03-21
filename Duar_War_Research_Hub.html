@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Duar_War_Research_Hub</title>
+</head>
+<body>
+
+<h1>Duar_War_Research_Hub</h1>
+
+<hr />
+<p>type: research_hub
+topic: duar_war
+period: 1864_1865
+region: dooars</p>
+<hr />
+<h1>Duar War Research Hub</h1>
+<p>This page connects all research material related to the [[1864_Duar_War]].</p>
+<hr />
+<h2>Main Event</h2>
+<ul>
+<li>[[1864_Duar_War]]</li>
+</ul>
+<hr />
+<h2>Pre-War Context</h2>
+<p>Events that led to the conflict:</p>
+<ul>
+<li>[[1772_British_Bhutan_Intercourse]]</li>
+<li>[[1792_Bijni_Dispute]]</li>
+<li>[[1815_KishenKant_Bose_Mission]]</li>
+<li>[[Ashley_Eden_Mission_1864]]</li>
+</ul>
+<hr />
+<h2>Military Campaign</h2>
+<p>Geographical flow of the campaign:</p>
+<ul>
+<li>[[1864_Duar_War_Campaign_Map]]</li>
+</ul>
+<p>Important frontier locations:</p>
+<ul>
+<li>[[Maynaguri]]</li>
+<li>[[Dhamonee]]</li>
+<li>[[Dalimkote]]</li>
+<li>[[Chamurchi]]</li>
+<li>[[Buxa]]</li>
+<li>[[Balia]]</li>
+<li>[[Dewangiri]]</li>
+<li>[[Koomrekatta]]</li>
+</ul>
+<hr />
+<h2>Commanders and Leadership</h2>
+<ul>
+<li>[[1864_Duar_War_Commanders]]</li>
+</ul>
+<hr />
+<h2>Frontier System Concepts</h2>
+<ul>
+<li>[[Dooars_Passes]]</li>
+<li>[[Bhutan_Administration_of_Dooars]]</li>
+<li>[[Eighteen_Dooars_(Frontier_Passes)]]</li>
+</ul>
+<hr />
+<h2>Outcome</h2>
+<ul>
+<li>[[1865_Treaty_of_Sinchula]]</li>
+</ul>
+<hr />
+<h2>Sources</h2>
+<ul>
+<li>[[Bhutan_and_the_Dooar_War]]</li>
+</ul>
+<hr />
+<h2>Related Geography</h2>
+<ul>
+<li>[[Dooars]]</li>
+<li>[[Teesta_River]]</li>
+<li>[[Raidak_River]]</li>
+<li>[[Sankosh_River]]</li>
+</ul>
+<h2>Related Historical Events</h2>
+<p><code>dataview
+TABLE year, region
+FROM "02_History"
+WHERE region = "dooars"
+SORT year asc</code></p>
+<h2>Places Mentioned in the Campaign</h2>
+<p><code>dataview
+LIST
+FROM "06_Places"
+WHERE region = "dooars"
+SORT file.name</code></p>
+<h2>Sources</h2>
+<p><code>dataview
+LIST
+FROM "08_Sources"
+WHERE contains(file.name, "Dooar") OR contains(file.name, "Bhutan")</code></p>
+
+</body>
+</html>
