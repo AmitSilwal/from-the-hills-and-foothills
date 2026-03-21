@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>1800S Bhutanese Control Of The Dooars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>1800S Bhutanese Control Of The Dooars</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="02-history.html">History</a> > <a href="frontier-transition.html">Frontier Transition</a> > <span>1800S Bhutanese Control Of The Dooars</span></div><h1>Dooars</h1>
+<h2>Meaning of the Name</h2>
+<p>The word <strong>Dooars (Duars)</strong> comes from the Hindustani word <strong>“Dwar”</strong>, meaning <strong>door or gateway</strong>.</p>
+<p>These “doors” refer to the mountain passes connecting the plains of India with Bhutan and further north with Tibet.</p>
+<p>Originally the term referred to the passes themselves, but later it came to refer to the fertile plains at the foot of the Bhutan hills.</p>
+<h2>Location</h2>
+<p>The Dooars form a narrow belt along the foothills of the Eastern Himalayas separating the plains of Bengal and Assam from Bhutan.</p>
+<h2>Extent</h2>
+<p>The region extends roughly:</p>
+<ul>
+<li><strong>Length:</strong> about 220 miles  </li>
+<li><strong>Width:</strong> between 10 and 30 miles</li>
+</ul>
+<h2>Landscape</h2>
+<h3>Northern Zone</h3>
+<ul>
+<li>Rugged terrain</li>
+<li>Spurs descending from the Himalayan mountains</li>
+<li>Dense forests</li>
+</ul>
+<p>Wildlife historically included elephants, rhinoceros, deer, tigers, buffalo and large snakes.</p>
+<h3>Southern Zone</h3>
+<p>The southern part consists of fertile soil capable of growing crops such as:</p>
+<ul>
+<li>rice</li>
+<li>cotton</li>
+<li>tobacco</li>
+</ul>
+<p>Tobacco from the Dooars was an important supply for Bhutan.</p>
+<h2>Climate</h2>
+<p>The climate of the Dooars was historically considered unhealthy because of dense jungle and malaria. Many people could not remain there for long periods without illness.</p>
+<h2>Historical Importance</h2>
+<p>The Dooars controlled the routes between the plains of India and the kingdom of Bhutan. Because of their fertile land and strategic location they became a major source of conflict between Bhutan and British India, eventually leading to the <strong>Dooar War (1864–1865)</strong>.</p>
+<h2>See Also</h2>
+<p>Dooars Identity</p>
+<h2>Source</h2>
+<p>Bhutan and the Dooar War, Chapter 3</p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

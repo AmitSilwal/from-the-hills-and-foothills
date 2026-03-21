@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Turner Mission To Tibet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Turner Mission To Tibet</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="02-history.html">History</a> > <a href="frontier-transition.html">Frontier Transition</a> > <span>Turner Mission To Tibet</span></div><h1>1783 – Turner Mission to Tibet</h1>
+<h2>Type</h2>
+<p>Event</p>
+<h2>Summary</h2>
+<p>In <strong>1783</strong>, the British Government of Bengal organized a second diplomatic mission to Tibet following the earlier mission of <a href="george-bogle.html">George Bogle</a>.</p>
+<p>The mission was led by <strong>Captain Samuel Turner</strong>, an officer of the Bengal Army. Its primary purpose was to maintain diplomatic relations with Tibetan authorities and to continue British attempts to establish commercial connections with Tibet through the Himalayan frontier.</p>
+<p>The mission was also intended to convey the congratulations of the British Government on the recognition of the <strong>new incarnation of the Tashi Lama</strong>, who had died in 1780.</p>
+<hr />
+<h2>Journey and Route</h2>
+<p>The mission departed from <strong>Calcutta</strong> and travelled north through the plains of Bengal.</p>
+<p>The route included:</p>
+<ul>
+<li>Murshidabad</li>
+<li>Rangpur</li>
+<li><a href="cooch-behar.html">Cooch Behar</a></li>
+</ul>
+<p>From the frontier town of <strong>Chichacotta</strong> in the Dooars region, the mission entered Bhutan.</p>
+<p>The party travelled through <strong>Buxa Dooar</strong>, following a route similar to that taken earlier by the <a href="1774-bogle-mission-to-tibet.html">1774 Bogle Mission To Tibet</a>.</p>
+<hr />
+<h2>Delay in Bhutan</h2>
+<p>Upon reaching <strong>Tassisudon (Tashichho Dzong)</strong>, the mission was delayed for several months while awaiting permission from the Tibetan authorities to proceed further north.</p>
+<p>Eventually approval was granted, though with a restriction that only two members of the mission could continue into Tibet.</p>
+<hr />
+<h2>Arrival in Tibet</h2>
+<p>Captain Turner and his companions eventually reached <strong>Tashilhunpo</strong>, the seat of the <strong>Tashi Lama</strong>.</p>
+<p>Turner reported that the Tibetan authorities appeared friendly toward the idea of commercial relations with Bengal. However, he also observed that Tibetan officials were cautious due to the influence of Chinese authority in the region.</p>
+<hr />
+<h2>Outcome</h2>
+<p>Although the mission strengthened diplomatic relations, no lasting commercial agreement was achieved.</p>
+<p>Later political developments, particularly the <strong>Nepal–Tibet War (1791–1792)</strong> and increased Chinese control over Tibet, prevented further British attempts to establish trade routes through Bhutan.</p>
+<hr />
+<h2>Historical Significance</h2>
+<p>The Turner Mission was important because it:</p>
+<ul>
+<li>continued British diplomatic engagement with Tibet</li>
+<li>confirmed British strategic interest in the Himalayan frontier</li>
+<li>provided valuable information about the political situation in Tibet and Bhutan.</li>
+</ul>
+<p>However, it also demonstrated the limitations of British influence in the region.</p>
+<hr />
+<h2>Source</h2>
+<p><a href="bhutan-and-the-dooar-war.html">Bhutan And The Dooar War</a></p>
+<hr />
+<h2>Related People</h2>
+<p><a href="samuel-turner.html">Samuel Turner</a><br />
+<a href="warren-hastings.html">Warren Hastings</a><br />
+<a href="george-bogle.html">George Bogle</a></p>
+<hr />
+<h2>Related Places</h2>
+<p><a href="cooch-behar.html">Cooch Behar</a><br />
+Buxa Dooar<br />
+<a href="bhutan.html">Bhutan</a><br />
+<a href="tibet.html">Tibet</a></p>
+<hr />
+<h2>Related Events</h2>
+<p><a href="1774-bogle-mission-to-tibet.html">1774 Bogle Mission To Tibet</a><br />
+<a href="1791-nepal-tibet-war.html">1791 Nepal Tibet War</a></p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

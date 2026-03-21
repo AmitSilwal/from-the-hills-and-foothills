@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dooars Historical Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Dooars Historical Map</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="06-places.html">Places</a> > <a href="maps.html">Maps</a> > <span>Dooars Historical Map</span></div><p>The <strong>Dooars (Duars)</strong> were a series of mountain gateways connecting the plains of Bengal and Assam with the Himalayan kingdom of Bhutan.</p>
+<p>Each <strong>Duar</strong> functioned as an administrative and trade passage between the hills and the plains.</p>
+<p>Historical geography: <a href="dooars-historical-map.html">Dooars Historical Map</a></p>
+<hr />
+<h1>Western Dooars</h1>
+<h2>Buxa Duar</h2>
+<p><a href="buxa.html">Buxa</a></p>
+<p>Key Events</p>
+<ul>
+<li>1864 Dooar War</li>
+</ul>
+<hr />
+<h2>Chamurchi Duar</h2>
+<p><a href="chamurchi.html">Chamurchi</a></p>
+<hr />
+<h2>Lakshmi Duar</h2>
+<p>Lakshmi Duar</p>
+<hr />
+<h1>Central Dooars</h1>
+<h2>Ambari / Falakata Region</h2>
+<p><a href="falakata.html">Falakata</a></p>
+<p>Historical Reference</p>
+<ul>
+<li><a href="1842-ambaree-fallacottah-dispute.html">1842 Ambaree Fallacottah Dispute</a></li>
+</ul>
+<hr />
+<h1>Eastern Dooars</h1>
+<h2>Bijni Duar</h2>
+<p>Bijni</p>
+<p>Key Events</p>
+<ul>
+<li><a href="1792-bijni-dispute.html">1792 Bijni Dispute</a></li>
+</ul>
+<hr />
+<h1>Regional Context</h1>
+<p>The Dooars frontier connected:</p>
+<ul>
+<li><a href="bhutan.html">Bhutan</a></li>
+<li>Assam</li>
+<li>Bengal</li>
+</ul>
+<p>Control of these gateways became the central issue in <strong>Bhutan–British frontier relations</strong> during the nineteenth century.</p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dooars Frontier Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Dooars Frontier Map</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="06-places.html">Places</a> > <a href="maps.html">Maps</a> > <span>Dooars Frontier Map</span></div><h1>Dooars Maps</h1>
+<h2>Historical Frontier Map (Before 1865)</h2>
+<p><img alt="Dooars Frontier Map" src="content/06_Places/Maps/Dooars_Frontier_Map_1865.png" /></p>
+<p>This map shows the Bengal–Bhutan frontier before the annexation of the Dooars by the British.</p>
+<p>Related:
+<a href="00-dooars-frontier-system-pre-1865.html">00 Dooars Frontier System Pre 1865</a>
+<a href="1864-duar-war.html">1864 Duar War</a>
+<a href="1865-treaty-of-sinchula.html">1865 Treaty Of Sinchula</a></p>
+<hr />
+<h2>Dooars Research Map</h2>
+<p><img src="content/Dooars_Research_Map.png" class="content-image"></p>
+<p>This simplified map helps explain the geography of the Dooars region including major rivers, frontier passes, and towns.</p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

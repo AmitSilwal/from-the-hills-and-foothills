@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Toorsa River</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Toorsa River</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="06-places.html">Places</a> > <a href="rivers.html">Rivers</a> > <span>Toorsa River</span></div><h1>Torsa River</h1>
+<h2>Overview</h2>
+<p>The Torsa River is one of the major Himalayan rivers flowing through Bhutan and the Dooars region of northern West Bengal. It is one of the most important rivers shaping the central Dooars landscape.</p>
+<h2>Source</h2>
+<p>The river originates in the Himalayan ranges within Bhutan.</p>
+<h2>Course</h2>
+<p>The Torsa flows southward from Bhutan into the plains of the Dooars and continues through northern West Bengal before eventually joining the Brahmaputra river system.</p>
+<h2>Dooars Regions Influenced</h2>
+<p>Within the Dooars, the Torsa flows through areas including:</p>
+<ul>
+<li>Alipurduar region</li>
+<li>Cooch Behar region</li>
+<li>central Dooars plains</li>
+</ul>
+<p>These regions later developed important tea plantations and settlements.</p>
+<h2>Environmental Characteristics</h2>
+<ul>
+<li>strong monsoon flow</li>
+<li>seasonal flooding</li>
+<li>formation of fertile alluvial floodplains</li>
+</ul>
+<p>The river also supports forest ecosystems and wildlife habitats in the Dooars.</p>
+<h2>Historical Importance</h2>
+<p>The Torsa valley became an important zone for:</p>
+<ul>
+<li>settlement expansion</li>
+<li>tea plantation development</li>
+<li>transport and trade routes in the colonial period.</li>
+</ul>
+<p>Related:
+Dooars River System
+Dooars Geography Identity</p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

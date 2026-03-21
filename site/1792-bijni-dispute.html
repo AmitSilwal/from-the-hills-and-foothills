@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bijni Dispute</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Bijni Dispute</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="02-history.html">History</a> > <a href="frontier-transition.html">Frontier Transition</a> > <span>Bijni Dispute</span></div><hr />
+<h1>1792 Bijni Dispute</h1>
+<h2>Overview</h2>
+<p>The Bijni dispute was a frontier conflict involving the Bhutanese authorities and the state of Bijni in the late eighteenth century. It reflected the unstable political conditions along the Dooars frontier.</p>
+<p>The conflict also attracted the attention of the British East India Company, which was increasingly involved in regional affairs.</p>
+<hr />
+<h2>Background</h2>
+<p>Bijni was a small frontier state located near the foothills of the eastern Himalayas.</p>
+<p>Bhutan attempted to assert authority over territories associated with Bijni and surrounding frontier areas.</p>
+<p>These actions created disputes regarding tribute, jurisdiction, and territorial control.</p>
+<hr />
+<h2>Nature of the Conflict</h2>
+<p>The dispute involved:</p>
+<ul>
+<li>Bhutanese attempts to control frontier territories  </li>
+<li>Disagreements over tribute and taxation  </li>
+<li>Conflicts between Bhutanese officials and local authorities  </li>
+</ul>
+<p>The instability of the frontier made the situation difficult to resolve.</p>
+<hr />
+<h2>British Interest</h2>
+<p>The British East India Company monitored these developments closely because they affected frontier stability.</p>
+<p>Conflicts such as the Bijni dispute contributed to British concerns about Bhutanese influence in the plains.</p>
+<hr />
+<h2>Historical Significance</h2>
+<p>The Bijni dispute illustrates the fragile political balance in the Dooars region before British annexation.</p>
+<p>Repeated conflicts of this kind contributed to growing tensions between Bhutan and British India.</p>
+<p>These tensions ultimately formed part of the background to the:</p>
+<ul>
+<li><a href="1864-duar-war.html">1864 Duar War</a></li>
+</ul>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

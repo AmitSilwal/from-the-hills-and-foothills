@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Treaty With Bhutan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Treaty With Bhutan</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="02-history.html">History</a> > <a href="frontier-transition.html">Frontier Transition</a> > <span>Treaty With Bhutan</span></div><h1>1774 – Treaty between the East India Company and Bhutan</h1>
+<h2>Type</h2>
+<p>Event</p>
+<h2>Summary</h2>
+<p>The <strong>Treaty of 1774</strong> was concluded between the <strong>East India Company</strong> and the Bhutanese authorities following the conflict that began with the <strong>Bhutanese invasion of <a href="cooch-behar.html">Cooch Behar</a> in 1772</strong>.</p>
+<p>After British forces expelled Bhutanese troops from Cooch Behar, the <strong>Tashi Lama of Tibet</strong> intervened diplomatically and requested the British Government to cease hostilities against Bhutan.</p>
+<p>The mediation led to negotiations between the two sides, resulting in a peace agreement in <strong>April 1774</strong>.</p>
+<hr />
+<h2>Key Terms of the Agreement</h2>
+<p>The treaty established peace between the two powers and included the following arrangements:</p>
+<ul>
+<li>Restoration of peaceful relations between Bhutan and the East India Company</li>
+<li>Bhutanese withdrawal from Cooch Behar</li>
+<li>Re-establishment of diplomatic contact between Bhutan and British India</li>
+</ul>
+<p>The agreement also created an opportunity for the British to pursue <strong>commercial relations with Tibet through Bhutan</strong>.</p>
+<hr />
+<h2>Diplomatic Consequences</h2>
+<p>The favourable tone of communications from the <strong>Tashi Lama</strong> made a strong impression on the British administration in Bengal.</p>
+<p>As a result, <strong>Governor-General <a href="warren-hastings.html">Warren Hastings</a> decided to send a diplomatic mission to Tibet</strong> to explore the possibility of trade relations.</p>
+<p>This led directly to the <strong><a href="1774-bogle-mission-to-tibet.html">1774 Bogle Mission To Tibet</a></strong>.</p>
+<hr />
+<h2>Historical Significance</h2>
+<p>The Treaty of 1774 was significant because it:</p>
+<ul>
+<li>ended the immediate conflict between Bhutan and the East India Company</li>
+<li>established formal diplomatic communication between the two governments</li>
+<li>opened the way for British diplomatic missions to Tibet</li>
+<li>marked the beginning of British strategic interest in the Himalayan frontier.</li>
+</ul>
+<hr />
+<h2>Source</h2>
+<p><a href="bhutan-and-the-dooar-war.html">Bhutan And The Dooar War</a></p>
+<hr />
+<h2>Related Places</h2>
+<p><a href="cooch-behar.html">Cooch Behar</a><br />
+<a href="bhutan.html">Bhutan</a><br />
+<a href="tibet.html">Tibet</a></p>
+<hr />
+<h2>Related People</h2>
+<p><a href="warren-hastings.html">Warren Hastings</a><br />
+Tashi Lama</p>
+<hr />
+<h2>Related Events</h2>
+<p><a href="1772-british-bhutan-intercourse.html">1772 British Bhutan Intercourse</a><br />
+<a href="1774-bogle-mission-to-tibet.html">1774 Bogle Mission To Tibet</a></p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sankosh River</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Sankosh River</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="06-places.html">Places</a> > <a href="rivers.html">Rivers</a> > <span>Sankosh River</span></div><h1>Sankosh River</h1>
+<h2>Overview</h2>
+<p>The Sankosh River is one of the largest rivers flowing through the eastern Dooars and forms an important geographic boundary in the region.</p>
+<h2>Source</h2>
+<p>The river originates in the Himalayan mountains within Bhutan.</p>
+<h2>Course</h2>
+<p>The Sankosh flows southward from Bhutan into the plains of the Dooars and continues into Assam before joining the Brahmaputra river system.</p>
+<h2>Dooars Regions Influenced</h2>
+<p>Within the Dooars, the Sankosh flows through:</p>
+<ul>
+<li>eastern Alipurduar region</li>
+<li>Kumargram area</li>
+<li>the Bhutan–Assam frontier zone</li>
+</ul>
+<h2>Geographic Importance</h2>
+<p>The Sankosh River historically marks an important regional boundary.</p>
+<p>It forms the <strong>eastern limit of the Bengal Dooars and separates them from the Assam Dooars</strong>.</p>
+<h2>Environmental Characteristics</h2>
+<ul>
+<li>strong seasonal flow during monsoon</li>
+<li>formation of extensive floodplains</li>
+<li>rich forest and wildlife habitats</li>
+</ul>
+<h2>Historical Importance</h2>
+<p>The river historically functioned as:
+- a frontier boundary
+- a natural division between administrative regions of the Dooars.</p>
+<p>Related:
+Dooars River System
+Dooars Geography Identity</p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

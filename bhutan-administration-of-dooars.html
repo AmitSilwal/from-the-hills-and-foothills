@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bhutan Administration Of Dooars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Bhutan Administration Of Dooars</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="10-concepts.html">Concepts</a> > <a href="frontier-system.html">Frontier System</a> > <span>Bhutan Administration Of Dooars</span></div><hr />
+<p>type: system
+region: dooars
+topic: frontier_governance
+actors: bhutan
+period: pre_1865</p>
+<hr />
+<h1>Bhutan Administration of the Dooars</h1>
+<h2>Overview</h2>
+<p>Before 1865 the Dooars region formed the southern frontier of the Kingdom of Bhutan. The territory was administered through Bhutanese frontier officials who controlled the important passes connecting the hills and the plains.</p>
+<p>The region served as both a defensive frontier and a source of revenue for Bhutan.</p>
+<hr />
+<h2>The Meaning of Duars</h2>
+<p>The word <strong>Duar</strong> means "door" or "gateway".</p>
+<p>These gateways connected the plains of Bengal and Assam with the Bhutan hills.</p>
+<p>Control over these passes allowed Bhutan to regulate trade and communication between the mountains and the plains.</p>
+<p>Related:
+<a href="dooars-passes.html">Dooars Passes</a>
+Eighteen Dooars</p>
+<hr />
+<h2>Frontier Officials</h2>
+<p>The Bhutanese administration of the Dooars was carried out by officials known as <strong>Jungpens</strong>.</p>
+<p>Their responsibilities included:</p>
+<ul>
+<li>administering frontier territories</li>
+<li>collecting tribute</li>
+<li>supervising trade routes</li>
+<li>maintaining authority over the passes</li>
+</ul>
+<hr />
+<h2>Revenue System</h2>
+<p>The Dooars were an important economic zone for Bhutan.</p>
+<p>Revenue sources included:</p>
+<ul>
+<li>tribute from plains territories</li>
+<li>agricultural taxes</li>
+<li>duties on trade passing through the frontier routes</li>
+</ul>
+<hr />
+<h2>Frontier Instability</h2>
+<p>The frontier region was often unstable due to:</p>
+<ul>
+<li>disputes with plains states</li>
+<li>raids across the frontier</li>
+<li>conflicts over tribute and authority</li>
+</ul>
+<p>These tensions gradually intensified during the nineteenth century.</p>
+<hr />
+<h2>British Intervention</h2>
+<p>As British power expanded in northern Bengal and Assam, disputes with Bhutan increased.</p>
+<p>British authorities criticized the Bhutanese administration of the frontier and accused Bhutan officials of raids and misrule.</p>
+<p>These tensions eventually contributed to the outbreak of the:</p>
+<p><a href="1864-duar-war.html">1864 Duar War</a></p>
+<hr />
+<h2>Historical Significance</h2>
+<p>Understanding the Bhutanese administration of the Dooars helps explain the political situation of the region before British annexation.</p>
+<p>The collapse of this frontier system after 1865 allowed the British to reorganize the region and later develop tea plantations.</p>
+<p>Related:
+<a href="1865-treaty-of-sinchula.html">1865 Treaty Of Sinchula</a>
+<a href="tea-plantations-in-dooars.html">Tea Plantations In Dooars</a></p>
+<hr />
+<h2>Source</h2>
+<p><em>Bhutan and the Dooar War</em></p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

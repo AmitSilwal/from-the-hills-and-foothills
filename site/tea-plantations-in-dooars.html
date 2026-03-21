@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tea Plantations In Dooars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Tea Plantations In Dooars</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="02-history.html">History</a> > <span>Tea Plantations In Dooars</span></div><h1>Tea Plantations in the Dooars</h1>
+<p>type: economic_system
+period: colonial
+region: dooars
+topic: plantation</p>
+<h2>Overview</h2>
+<p>The Dooars region became one of the major tea-producing areas of India during the late nineteenth century.</p>
+<p>Following the British annexation of the Dooars after the <a href="1865-treaty-of-sinchula.html">1865 Treaty Of Sinchula</a>, large areas of forest were cleared to establish tea plantations.</p>
+<p>These plantations transformed the region economically, socially, and environmentally.</p>
+<p>Related:
+<a href="plantation-society-dooars.html">Plantation Society Dooars</a>
+<a href="migration-to-dooars.html">Migration To Dooars</a>
+Dooars Forest Landscape</p>
+<hr />
+<h2>Early Development</h2>
+<p>Tea cultivation in the Dooars began in the late nineteenth century as European planters expanded plantation agriculture from the Darjeeling hills into the foothill plains.</p>
+<p>The fertile alluvial soil, heavy rainfall, and humid climate of the region made it highly suitable for tea cultivation.</p>
+<p>Related:
+Dooars Climate And Monsoon
+Dooars River Valleys</p>
+<hr />
+<h2>Plantation Expansion</h2>
+<p>During the late nineteenth and early twentieth centuries, numerous tea estates were established across the Dooars.</p>
+<p>Large tracts of forest were cleared and converted into plantation estates.</p>
+<p>Plantation development included:</p>
+<ul>
+<li>establishment of tea gardens</li>
+<li>construction of labour lines</li>
+<li>development of transport routes</li>
+<li>creation of plantation settlements</li>
+</ul>
+<p>Related:
+<a href="labour-lines-tea-estates.html">Labour Lines Tea Estates</a></p>
+<hr />
+<h2>Labour and Migration</h2>
+<p>The tea plantations depended on a large labour force.</p>
+<p>Workers were recruited from different regions including:</p>
+<ul>
+<li>Nepali migrants</li>
+<li>Adivasi communities from Chota Nagpur</li>
+<li>other labour groups from central and eastern India</li>
+</ul>
+<p>These communities formed the core population of plantation settlements.</p>
+<p>Related:
+<a href="migration-to-dooars.html">Migration To Dooars</a></p>
+<hr />
+<h2>Plantation Landscape</h2>
+<p>The expansion of tea estates transformed the landscape of the Dooars.</p>
+<p>Changes included:</p>
+<ul>
+<li>clearing of dense forests</li>
+<li>development of plantation fields</li>
+<li>emergence of plantation villages</li>
+<li>growth of market towns near tea estates</li>
+</ul>
+<p>This transformation shaped the modern geography and economy of the region.</p>
+<hr />
+<h2>Tea Estates of the Dooars</h2>
+<p>Numerous tea estates were established across the Dooars during the late nineteenth and early twentieth centuries.</p>
+<p>Some important estates include:</p>
+<ul>
+<li>Lankapara Tea Estate</li>
+<li>Kalchini Tea Estate</li>
+<li>Binnaguri Tea Estate</li>
+<li>Dalmore Tea Estate</li>
+<li>Rangalibazna Tea Estate</li>
+<li>Diana Tea Estate</li>
+<li>Bagrakote Tea Estate</li>
+<li>Banarhat Tea Estate</li>
+</ul>
+<p>This list can be expanded as more estates are documented.</p>
+<hr />
+<h2>Importance for Regional History</h2>
+<p>The development of tea plantations explains:</p>
+<ul>
+<li>the economic transformation of the Dooars</li>
+<li>large-scale migration into the region</li>
+<li>the emergence of plantation labour communities</li>
+<li>the development of modern settlements in the Dooars.</li>
+</ul>
+<p>Related:
+Population Transformation Dooars
+<a href="plantation-society-dooars.html">Plantation Society Dooars</a>
+<a href="migration-to-dooars.html">Migration To Dooars</a></p>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bhutan And The Dooar War</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+      <li><a href="notes.html" class="">All Notes</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<h1>Bhutan And The Dooar War</h1>
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="08-sources.html">Sources</a> > <a href="books.html">Books</a> > <span>Bhutan And The Dooar War</span></div><h1>Bhutan and the Dooar War</h1>
+<h2>Type</h2>
+<p>Source</p>
+<h2>Author</h2>
+<p>Unknown / Colonial military account (1865 era)</p>
+<h2>Year</h2>
+<p>19th century</p>
+<h2>Source Type</h2>
+<p>Book</p>
+<h2>Relevance</h2>
+<p>Important primary narrative describing:
+- Bhutanese political system
+- Early British–Bhutan relations
+- Duar War (1864–65)</p>
+<hr />
+<h1>Key Topics Covered</h1>
+<ul>
+<li>Bhutan political structure</li>
+<li>British–Bhutan frontier disputes</li>
+<li>Duar War</li>
+<li>Treaty of Sinchula</li>
+<li>Early diplomatic missions to Tibet</li>
+</ul>
+<hr />
+<h1>Important Chapters</h1>
+<h2>Chapter 1</h2>
+<p>Bhutan geography and political system</p>
+<p>Related Notes
+- Dooars Pre 1865</p>
+<hr />
+<h2>Chapter  - Raw Notes</h2>
+<p>Early British–Bhutan relations (1772 onward)
+1772 Bhutan invades Cooch Behar
+Raja captured
+East India Company intervenes
+Captain Jones leads troops
+Tashi Lama mediates peace
+1774 treaty signed</p>
+<p>Related Notes
+- <a href="1772-british-bhutan-intercourse.html">1772 British Bhutan Intercourse</a></p>
+<hr />
+<h2>Chapter 3+</h2>
+<p>(To be added as research continues)</p>
+<hr />
+<h1>Key Observations</h1>
+<ul>
+<li>Bhutan frontier administration operated through <strong>Penlows and Jungpens</strong></li>
+<li>Dooars functioned as <strong>mountain passes linking plains to Bhutan</strong></li>
+<li>British involvement began after <strong>Bhutan invaded Cooch Behar in 1772</strong></li>
+</ul>
+<hr />
+<h1>Quotations</h1>
+<p>(Add important quotations here later)</p>
+<hr />
+<h1>Reliability Notes</h1>
+<p>Colonial narrative — may contain bias against Bhutanese administration.</p>
+<p>Must be compared with:
+- Gazetteers
+- Bhutanese sources
+- Modern historical research</p>
+<h2>Related Events</h2>
+<ul>
+<li><a href="1864-duar-war.html">1864 Duar War</a></li>
+<li>Ashley Eden Mission 1864</li>
+<li><a href="1865-treaty-of-sinchula.html">1865 Treaty Of Sinchula</a></li>
+</ul>
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>
