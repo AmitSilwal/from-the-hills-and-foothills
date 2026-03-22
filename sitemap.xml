@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://amitsilwal.github.io/from-the-hills-and-foothills/</loc>
-</url>
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/</loc>
+  </url>
 
-<url>
-<loc>https://amitsilwal.github.io/from-the-hills-and-foothills/about.html</loc>
-</url>
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/index.html</loc>
+  </url>
 
-<url>
-<loc>https://amitsilwal.github.io/from-the-hills-and-foothills/timeline.html</loc>
-</url>
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/timeline.html</loc>
+  </url>
 
-<url>
-<loc>https://amitsilwal.github.io/from-the-hills-and-foothills/places.html</loc>
-</url>
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/history.html</loc>
+  </url>
 
-<url>
-<loc>https://amitsilwal.github.io/from-the-hills-and-foothills/citation.html</loc>
-</url>
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/places.html</loc>
+  </url>
+
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/maps.html</loc>
+  </url>
+
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/buxa.html</loc>
+  </url>
+
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/notes.html</loc>
+  </url>
+
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/methodology.html</loc>
+  </url>
+
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/sources.html</loc>
+  </url>
+
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/archiverules.html</loc>
+  </url>
+
+  <url>
+    <loc>https://amitsilwal.github.io/from-the-hills-and-foothills/license.html</loc>
+  </url>
 
 </urlset>
