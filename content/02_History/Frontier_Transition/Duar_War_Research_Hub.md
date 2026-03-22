@@ -7,13 +7,13 @@ region: dooars
 
 # Duar War Research Hub
 
-This page connects all research material related to the [[1864_Duar_War]].
+This page connects all research material related to the [[Duar_War_1864_1865.md]].
 
 ---
 
 ## Main Event
 
-- [[1864_Duar_War]]
+- [[Duar_War_1864_1865.md]]
 
 ---
 

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Preparation For Ashley Eden Mission 1863</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+
+      <li><a href="notes.html" class="">All Notes</a></li>
+
+      <li><a href="about.html" class="">About</a></li>
+      <li><a href="methodology.html" class="">Methodology</a></li>
+      <li><a href="sources.html" class="">Sources</a></li>
+      <li><a href="archiverules.html" class="">Rules</a></li>
+      <li><a href="license.html" class="">License</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+
+<h1 class='page-title'>Preparation For Ashley Eden Mission 1863</h1>
+
+<div class="breadcrumb"><a href="index.html">Home</a> > <a href="02-history.html">History</a> > <a href="ashley-eden-mission-1863-64.html">Ashley Eden Mission 1863 64</a> > <span>Preparation For Ashley Eden Mission 1863</span></div><h1>Preparation for Ashley Eden Mission (1863)</h1>
+<h2>Context</h2>
+<p>By the early 1860s, relations between British India and Bhutan had significantly deteriorated due to prolonged frontier instability.</p>
+<p>This included:</p>
+<ul>
+<li>repeated Bhutanese raids into British territories  </li>
+<li>abduction of inhabitants from frontier regions  </li>
+<li>disputes over tribute and control of the Dooars  </li>
+<li>failure of earlier diplomatic efforts  </li>
+</ul>
+<p>These developments are part of:</p>
+<p>→ <a href="frontier-conflicts-1828-1864-md.html">Frontier Conflicts 1828 1864.Md</a></p>
+<hr />
+<h2>Decision to Send a Mission</h2>
+<ul>
+<li>In 1862, the Government of India decided to send a new diplomatic mission to Bhutan  </li>
+<li>The objective was to resolve frontier disputes peacefully  </li>
+<li>This decision followed repeated failures of earlier measures  </li>
+</ul>
+<hr />
+<h2>Appointment of Ashley Eden</h2>
+<ul>
+<li>Ashley Eden was appointed as envoy  </li>
+<li>Tasked with negotiating directly with Bhutan authorities  </li>
+<li>Expected to secure a stable agreement  </li>
+</ul>
+<hr />
+<h2>Strategic Context</h2>
+<p>At this stage:</p>
+<ul>
+<li>British patience with frontier disturbances was declining  </li>
+<li>Frontier instability was becoming unacceptable  </li>
+<li>Military action was being considered as a possible alternative  </li>
+</ul>
+<hr />
+<h2>Expectations</h2>
+<p>The British Government expected that:</p>
+<ul>
+<li>diplomacy would succeed where earlier efforts had failed  </li>
+<li>Bhutan would agree to terms ensuring frontier stability  </li>
+</ul>
+<hr />
+<h2>Outcome</h2>
+<p>The mission was prepared and dispatched in 1863  </p>
+<p>Leads to:</p>
+<p>→ <a href="ashley-eden-mission-journey-phase-1863-64-md.html">Ashley Eden Mission Journey Phase 1863 64.Md</a></p>
+<hr />
+<h2>Historical Significance</h2>
+<ul>
+<li>Represents the final diplomatic attempt before war  </li>
+<li>Shows British preference for negotiation before military action  </li>
+<li>Marks escalation of frontier tensions  </li>
+</ul>
+<hr />
+<h2>Linked Notes</h2>
+<ul>
+<li><a href="frontier-conflicts-1828-1864-md.html">Frontier Conflicts 1828 1864.Md</a>  </li>
+<li><a href="ashley-eden-mission-journey-phase-1863-64-md.html">Ashley Eden Mission Journey Phase 1863 64.Md</a>  </li>
+</ul>
+<hr />
+<h2>Insight</h2>
+<p>The preparation phase shows that the British were still pursuing diplomacy, but were already close to shifting toward military intervention if the mission failed.</p>
+<hr />
+<h2>Source</h2>
+<p>Bhutan and the Dooar War</p>
+
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

@@ -57,4 +57,4 @@ The mission illustrates the continued attempts by British authorities to resolve
 
 However, repeated failures of diplomatic efforts eventually contributed to the escalation of tensions that culminated in the:
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]

@@ -21,7 +21,7 @@ Historically the pass connected the plains of the Dooars with routes leading int
 
 ### 1864 Duar War
 
-During the [[1864_Duar_War]], British forces advancing from [[Cooch_Behar]] captured the pass at [[Buxa]].
+During the [[Duar_War_1864_1865.md]], British forces advancing from [[Cooch_Behar]] captured the pass at [[Buxa]].
 
 Control of Buxa allowed British forces to secure an important gateway between the plains and the Bhutan hills.
 
@@ -35,5 +35,5 @@ The area surrounding Buxa later became known for:
 
 ## Related Notes
 
-[[1864_Duar_War]]  
+[[Duar_War_1864_1865.md]]  
 [[Dooars_Passes]]

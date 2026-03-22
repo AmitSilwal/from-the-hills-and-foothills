@@ -15,11 +15,11 @@ The pass served as an important route connecting the plains of Bengal with the B
 
 ### 1864 Duar War
 
-During the [[1864_Duar_War]] British forces secured the pass at [[Chamurchi]] as part of their campaign to control the Dooars frontier.
+During the [[Duar_War_1864_1865.md]] British forces secured the pass at [[Chamurchi]] as part of their campaign to control the Dooars frontier.
 
 The capture of Chamurchi helped establish British control over key access points into Bhutan.
 
 ## Related Notes
 
-[[1864_Duar_War]]  
+[[Duar_War_1864_1865.md]]  
 [[Dooars_Passes]]

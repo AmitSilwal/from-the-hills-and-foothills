@@ -1,0 +1,256 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+  color: #2c3e50;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+
+.nav-menu a {
+  color: #dfe6ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-menu a:hover,
+.nav-menu .active {
+  color: #00f7ff;
+  border-bottom: 2px solid #00f7ff;
+}
+
+/* SEARCH */
+.search-box input {
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+}
+
+.search-results {
+  position: absolute;
+  background: white;
+  width: 220px;
+  max-height: 220px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin-top: 5px;
+  z-index: 999;
+}
+
+.search-results div {
+  padding: 8px;
+}
+
+.search-results div:hover {
+  background: #f0f4ff;
+}
+
+/* MAIN CONTAINER */
+.container {
+  width: 85%;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* TITLES */
+.page-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* LINKS */
+a {
+  color: #0077cc;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #005999;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(120deg, #00c6ff, #0072ff);
+  color: white;
+  padding: 50px 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* HERO BUTTONS */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background: white;
+  color: #0072ff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #f0f4ff;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn.secondary:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* ===== CARDS ===== */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  min-width: 220px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  border-left: 5px solid #0077cc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  background: #ffffff;
+}
+
+/* ===== TIMELINE BOX (Homepage) ===== */
+.timeline-box {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.timeline-box ul {
+  padding-left: 20px;
+}
+
+.timeline-box li {
+  margin-bottom: 8px;
+}
+
+/* ===== MAIN TIMELINE (Timeline Page) ===== */
+.timeline {
+  position: relative;
+  margin: 50px 0;
+  padding-left: 60px;
+  border-left: 3px solid #0072ff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* DOT ON LINE */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background: #0072ff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #e6f0ff;
+}
+
+/* DATE */
+.timeline-date {
+  position: absolute;
+  left: -110px;
+  top: 0;
+  background: #0072ff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* CONTENT BOX */
+.timeline-content {
+  background: #f8f9fa;
+  padding: 18px 22px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: 0.25s;
+}
+
+.timeline-content:hover {
+  transform: translateX(8px);
+  background: #ffffff;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* IMAGE */
+.content-image {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+}

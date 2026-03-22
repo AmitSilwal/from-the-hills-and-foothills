@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Archiverules</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+
+      <li><a href="notes.html" class="">All Notes</a></li>
+
+      <li><a href="about.html" class="">About</a></li>
+      <li><a href="methodology.html" class="">Methodology</a></li>
+      <li><a href="sources.html" class="">Sources</a></li>
+      <li><a href="archiverules.html" class="active">Rules</a></li>
+      <li><a href="license.html" class="">License</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+
+<h1 class='page-title'>Archiverules</h1>
+
+<div class="breadcrumb"><a href="index.html">Home</a> > <span>Archiverules</span></div><h1>Archive Rules</h1>
+<h2>Purpose</h2>
+<p>This archive documents and preserves Nepali (Gorkhali) culture respectfully.</p>
+<h2>Content Allowed</h2>
+<ul>
+<li>Public places and landscapes  </li>
+<li>Everyday life and work  </li>
+<li>Cultural events  </li>
+<li>Language and traditions  </li>
+<li>Historical materials  </li>
+</ul>
+<h2>Content Not Allowed</h2>
+<ul>
+<li>Private individuals  </li>
+<li>Sensitive moments  </li>
+<li>Political messaging  </li>
+<li>Misleading content  </li>
+</ul>
+<h2>Credit &amp; Sourcing</h2>
+<p>Every item must include:</p>
+<ul>
+<li>Creator  </li>
+<li>Source  </li>
+<li>Platform  </li>
+<li>Link  </li>
+</ul>
+<h2>Tone</h2>
+<ul>
+<li>Neutral  </li>
+<li>Respectful  </li>
+<li>Observational  </li>
+<li>Archival  </li>
+</ul>
+<h2>Corrections</h2>
+<p>All correction or removal requests will be handled respectfully.</p>
+
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

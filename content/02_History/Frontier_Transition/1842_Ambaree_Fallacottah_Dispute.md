@@ -80,6 +80,6 @@ This connection between the Baikunthapur estate, Bhutan frontier administration,
 [[1828_Annexation_of_Assam_and_Bhutan_Frontier]]
 [[1839_Bhutanese_Frontier_Raids_and_Abductions]]
 [[00_Dooars_Frontier_System_Pre_1865]]
-[[1864_Ashley_Eden_Mission]]
+[[Ashley_Eden_Mission_1863_64.md]]
 ## Source
 Bhutan and the Dooar War, Chapter 3

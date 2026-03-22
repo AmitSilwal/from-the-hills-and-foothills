@@ -120,6 +120,6 @@ may clarify the exact locations of certain passes.
 
 [[1772_British_Bhutan_Intercourse]]
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 
 [[1865_Treaty_of_Sinchula]]

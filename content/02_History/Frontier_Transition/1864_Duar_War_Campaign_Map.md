@@ -9,7 +9,7 @@ region: dooars
 This note describes the geographical flow of the British military campaign during the Duar War (1864–1865).
 
 Related Event:
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 
 ---
 

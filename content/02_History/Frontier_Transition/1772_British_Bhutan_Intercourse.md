@@ -56,4 +56,4 @@ The events of 1772 marked the beginning of British diplomatic engagement with Bh
 
 They also initiated a long history of frontier negotiations, disputes, and political interaction that eventually culminated in the:
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]

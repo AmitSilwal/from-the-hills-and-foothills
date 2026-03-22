@@ -38,7 +38,7 @@ Several issues contributed to tensions:
 
 These tensions eventually led to the outbreak of the:
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 
 ---
 
@@ -84,7 +84,7 @@ Bhutanese frontier territory → British colonial administration.
 This transformation later led to the development of tea plantations and new settlement patterns.
 
 Related Notes:
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 [[Tea_Plantations_in_Dooars]]
 [[Dooars_Transformation_Timeline_1864_1900]]
 

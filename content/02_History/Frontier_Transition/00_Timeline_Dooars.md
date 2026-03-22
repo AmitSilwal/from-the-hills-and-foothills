@@ -21,6 +21,6 @@
 
 ## War Phase
 
-- [[1864_Ashley_Eden_Mission]]
-- [[1864_Duar_War]]
+- [[Ashley_Eden_Mission_1863_64.md]]
+- [[Duar_War_1864_1865.md]]
 - [[1865_Treaty_of_Sinchula]]

@@ -6,7 +6,7 @@ category: military_command
 
 # Commanders in the 1864 Duar War
 
-This note lists the major military and political figures involved in the [[1864_Duar_War]].
+This note lists the major military and political figures involved in the [[Duar_War_1864_1865.md]].
 
 ---
 
@@ -55,4 +55,4 @@ Bhutanese forces under his influence were involved in the counterattacks around 
 
 ## Related Event
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]

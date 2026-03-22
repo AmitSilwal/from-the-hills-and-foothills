@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Methodology</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+
+      <li><a href="notes.html" class="">All Notes</a></li>
+
+      <li><a href="about.html" class="">About</a></li>
+      <li><a href="methodology.html" class="active">Methodology</a></li>
+      <li><a href="sources.html" class="">Sources</a></li>
+      <li><a href="archiverules.html" class="">Rules</a></li>
+      <li><a href="license.html" class="">License</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+
+<h1 class='page-title'>Methodology</h1>
+
+<div class="breadcrumb"><a href="index.html">Home</a> > <span>Methodology</span></div><h1>Research Methodology</h1>
+<h2>About the Project</h2>
+<p>From the Hills and Foothills is an independent research and documentation initiative focused on the historical landscape of the Eastern Himalayan foothills, particularly the Dooars region and adjoining hill areas.</p>
+<h2>Research Approach</h2>
+<p>The archive is built through systematic reading of historical sources and extraction of relevant information.</p>
+<p>Focus areas include:</p>
+<ul>
+<li>historical events  </li>
+<li>geographical locations  </li>
+<li>administrative developments  </li>
+<li>frontier interactions  </li>
+<li>settlements and communities  </li>
+</ul>
+<p>Each reference is recorded with attention to its original source.</p>
+<h2>Sources</h2>
+<p>The project relies on:</p>
+<ul>
+<li>district gazetteers  </li>
+<li>colonial administrative reports  </li>
+<li>settlement records  </li>
+<li>travel narratives  </li>
+<li>historical publications  </li>
+<li>archival documents  </li>
+</ul>
+<h2>Organization</h2>
+<p>Research notes are structured into:</p>
+<ul>
+<li>historical events  </li>
+<li>geographical locations  </li>
+<li>timelines  </li>
+<li>thematic notes  </li>
+<li>source references  </li>
+</ul>
+<h2>Project Status</h2>
+<p>This is an ongoing research project. Content is added progressively.</p>
+
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

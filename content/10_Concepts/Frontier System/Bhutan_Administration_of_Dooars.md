@@ -82,7 +82,7 @@ British authorities criticized the Bhutanese administration of the frontier and 
 
 These tensions eventually contributed to the outbreak of the:
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 
 ---
 

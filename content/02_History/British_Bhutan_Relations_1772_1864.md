@@ -86,7 +86,7 @@ The deterioration of diplomatic relations ultimately resulted in the **Duar War 
 The war ended with the **Treaty of Sinchula**, through which Bhutan ceded the Dooars to British India.
 
 Related Notes:
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 [[1865_Treaty_of_Sinchula]]
 
 ---

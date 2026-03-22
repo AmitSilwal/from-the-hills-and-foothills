@@ -15,10 +15,10 @@ Historically it served as a frontier location along the Bhutan borderlands.
 
 ### 1864 Duar War
 
-British forces advancing from [[Jalpaiguri]] occupied [[Maynaguri]] during the early phase of the [[1864_Duar_War]].
+British forces advancing from [[Jalpaiguri]] occupied [[Maynaguri]] during the early phase of the [[Duar_War_1864_1865.md]].
 
 The position was abandoned by Bhutanese forces and secured by British troops.
 
 ## Related Notes
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]

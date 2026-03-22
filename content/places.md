@@ -2,5 +2,5 @@
 
 Important geographical locations.
 
-- [[Buxa Duar]]
+- [[Buxa]]
 - [[Cooch Behar]]

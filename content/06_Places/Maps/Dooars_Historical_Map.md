@@ -8,12 +8,17 @@ tags:
   - historical_geography
 ---
 
+# Dooars Historical Map
 
 The **Dooars (Duars)** were a series of mountain gateways connecting the plains of Bengal and Assam with the Himalayan kingdom of Bhutan.
 
 Each **Duar** functioned as an administrative and trade passage between the hills and the plains.
 
-Historical geography: [[Dooars_Historical_Map]]
+---
+
+## Map View
+
+![[Dooars_Frontier_Map_1865.png]]
 
 ---
 
@@ -22,8 +27,7 @@ Historical geography: [[Dooars_Historical_Map]]
 ## Buxa Duar
 [[Buxa]]
 
-Key Events
-
+### Key Events
 - [[1864_Dooar_War]]
 
 ---
@@ -43,8 +47,7 @@ Key Events
 ## Ambari / Falakata Region
 [[Falakata]]
 
-Historical Reference
-
+### Historical Reference
 - [[1842_Ambaree_Fallacottah_Dispute]]
 
 ---
@@ -54,8 +57,7 @@ Historical Reference
 ## Bijni Duar
 [[Bijni]]
 
-Key Events
-
+### Key Events
 - [[1792_Bijni_Dispute]]
 
 ---

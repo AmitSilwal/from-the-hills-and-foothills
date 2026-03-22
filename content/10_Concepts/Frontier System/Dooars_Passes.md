@@ -51,7 +51,7 @@ Commonly recorded passes include:
 
 ## Passes During the 1864 Duar War
 
-Several Dooar passes became important military routes during the [[1864_Duar_War]].
+Several Dooar passes became important military routes during the [[Duar_War_1864_1865.md]].
 
 British forces advanced through these frontier gateways to capture Bhutanese forts and secure the foothill region.
 
@@ -138,6 +138,6 @@ may clarify the exact locations of certain passes.
 
 [[1772_British_Bhutan_Intercourse]]
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 
 [[1865_Treaty_of_Sinchula]]

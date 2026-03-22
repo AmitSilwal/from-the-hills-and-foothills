@@ -82,7 +82,7 @@ Continued tensions along the frontier eventually led to armed conflict between B
 
 This conflict became the:
 
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 
 ---
 
@@ -257,7 +257,7 @@ These areas later became important centres of tea plantation development after t
 [[1828_Annexation_of_Assam_and_Bhutan_Frontier]]  
 [[1839_Bhutanese_Frontier_Raids_and_Abductions]]  
 [[1842_Ambaree_Fallacottah_Dispute]]  
-[[1864_Ashley_Eden_Mission]]
+[[Ashley_Eden_Mission_1863_64.md]]
 ## Source
 
 - *Bhutan and the Dooar War*, Chapter 3

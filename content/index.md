@@ -1,14 +1,29 @@
-# Welcome
+# From the Hills and Foothills
 
-This is a digital archive of the Dooars, Bhutan relations, and frontier history.
+A digital archive of the Dooars and frontier history
+
+---
 
 ## Explore the Archive
 
-- [[Timeline]]
-- [[History]]
-- [[Places]]
-- [[Maps]]
+### 📜 Timeline
+Chronological view of events  
+[Go to Timeline](timeline.html)
 
-## About
+---
 
-This project documents the historical transformation of the Dooars region through structured research and primary sources.
+### 📚 History
+Structured historical notes  
+[Explore History](history.html)
+
+---
+
+### 📍 Places
+Key locations in the Dooars  
+[View Places](places.html)
+
+---
+
+### 🗺 Maps
+Historical geography and maps  
+[Open Maps](maps.html)

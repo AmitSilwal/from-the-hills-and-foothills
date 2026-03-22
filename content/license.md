@@ -1,0 +1,25 @@
+# License
+
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+
+## You are free to:
+
+- Share — copy and redistribute the material in any medium or format
+
+## Under the following terms:
+
+- Attribution — You must give appropriate credit  
+- NonCommercial — You may not use the material for commercial purposes  
+- NoDerivatives — You may not distribute modified material  
+
+## Scope
+
+This license applies to the original text, structure, and curation work of the "From the Hills and Foothills" archive.
+
+Third-party media remains the property of its respective creators.
+
+## Full License Text
+
+https://creativecommons.org/licenses/by-nc-nd/4.0/

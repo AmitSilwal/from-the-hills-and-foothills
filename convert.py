@@ -43,7 +43,14 @@ def get_navbar(current_page):
       <li><a href="history.html" class="{ 'active' if current_page=='history.html' else '' }">History</a></li>
       <li><a href="places.html" class="{ 'active' if current_page=='places.html' else '' }">Places</a></li>
       <li><a href="maps.html" class="{ 'active' if current_page=='maps.html' else '' }">Maps</a></li>
+
       <li><a href="notes.html" class="{ 'active' if current_page=='notes.html' else '' }">All Notes</a></li>
+
+      <li><a href="about.html" class="{ 'active' if current_page=='about.html' else '' }">About</a></li>
+      <li><a href="methodology.html" class="{ 'active' if current_page=='methodology.html' else '' }">Methodology</a></li>
+      <li><a href="sources.html" class="{ 'active' if current_page=='sources.html' else '' }">Sources</a></li>
+      <li><a href="archiverules.html" class="{ 'active' if current_page=='archiverules.html' else '' }">Rules</a></li>
+      <li><a href="license.html" class="{ 'active' if current_page=='license.html' else '' }">License</a></li>
     </ul>
 
     <div class="search-box">
@@ -68,8 +75,11 @@ def get_template(title, content, navbar, is_home=False):
 {navbar}
 
 <div class="container">
-{"" if is_home else f"<h1>{title}</h1>"}
+
+{"" if is_home else f"<h1 class='page-title'>{title}</h1>"}
+
 {content}
+
 </div>
 
 <script src="search_index.js"></script>
@@ -107,12 +117,11 @@ def clean_title(filename):
     return title
 
 # ===== IMAGE HANDLING =====
-def convert_images(text):
-    return re.sub(
-        r"!\[\[(.*?)\]\]",
-        lambda m: f'<img src="content/{m.group(1)}" class="content-image">',
-        text
-    )
+def convert_images(text, current_path):
+    def replace(match):
+        filename = match.group(1)
+        return f'<img src="images/{filename}" class="content-image">'
+    return re.sub(r"!\[\[(.*?)\]\]", replace, text)
 
 # ===== COLLECT FILES =====
 all_pages = []
@@ -136,9 +145,15 @@ for root, file in raw_pages:
 
 # ===== LINK CONVERSION =====
 def convert_links(match):
-    name = match.group(1)
+    content = match.group(1)
+
+    if "|" in content:
+        name, display_name = content.split("|", 1)
+    else:
+        name = content
+        display_name = name.replace("_", " ").title()
+
     slug = slugify(name)
-    display_name = name.replace("_", " ").title()
 
     if slug in file_map:
         return f'<a href="{file_map[slug]}">{display_name}</a>'
@@ -176,23 +191,20 @@ for root, file in raw_pages:
     with open(filepath, "r", encoding="utf-8") as f:
         text = f.read()
 
-    # ===== EXTRACT YAML =====
     metadata = extract_yaml(text)
 
-    # ===== STORE TIMELINE DATA =====
-    if "year" in metadata:
+    # ===== TIMELINE DATA COLLECTION =====
+    if metadata.get("type") == "event" and "year" in metadata:
         timeline_data.append({
-            "year": metadata["year"],
-            "title": clean_title(file),
+            "year": int(metadata["year"]),
+            "title": metadata.get("title", clean_title(file)),
             "url": slugify(file.replace(".md", "")) + ".html"
         })
 
-    # ===== REMOVE YAML =====
     text = text.strip()
     text = re.sub(r"^---[\s\S]*?---", "", text).strip()
 
-    # ===== PROCESS CONTENT =====
-    text = convert_images(text)
+    text = convert_images(text, filepath)
     text = re.sub(r"\[\[(.*?)\]\]", convert_links, text)
 
     html_content = markdown.markdown(text, extensions=['extra'])
@@ -214,31 +226,45 @@ for root, file in raw_pages:
 
 print("✅ Pages generated")
 
-# ===== TIMELINE PAGE =====
+# ===== TIMELINE PAGE (UPGRADED) =====
 timeline_data.sort(key=lambda x: x["year"])
 
-timeline_html = "<h1>Historical Timeline</h1><ul>"
+timeline_html = """
+<h1 class="page-title">📜 Historical Timeline</h1>
+<p>Chronological progression of events in the Dooars and frontier history</p>
+
+<div class="timeline">
+"""
 
 for item in timeline_data:
-    timeline_html += f'<li><b>{item["year"]}</b> — <a href="{item["url"]}">{item["title"]}</a></li>'
+    timeline_html += f"""
+    <div class="timeline-item">
+        <div class="timeline-date">{item["year"]}</div>
+        <div class="timeline-content">
+            <h3><a href="{item["url"]}">{item["title"]}</a></h3>
+            <a href="{item["url"]}">Read more →</a>
+        </div>
+    </div>
+    """
 
-timeline_html += "</ul>"
+timeline_html += "</div>"
 
 navbar = get_navbar("timeline.html")
-
 timeline_page = get_template("Timeline", timeline_html, navbar)
 
 with open(os.path.join(output_folder, "timeline.html"), "w", encoding="utf-8") as f:
     f.write(timeline_page)
 
-print("✅ Timeline generated")
+print("✅ Timeline generated (visual)")
 
 # ===== NOTES PAGE =====
 all_pages.sort()
 
 links = ""
+
 for title, html_file in all_pages:
-    clean = slugify(title).replace("-", " ").title()
+    clean = re.sub(r'^\d+\s*[_-]*\s*', '', title)
+    clean = clean.replace("_", " ").replace("-", " ").title()
     links += f'<li><a href="{html_file}">{clean}</a></li>\n'
 
 navbar = get_navbar("notes.html")

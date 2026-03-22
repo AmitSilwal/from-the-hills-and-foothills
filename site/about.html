@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Hills & Foothills</a>
+    
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="timeline.html" class="">Timeline</a></li>
+      <li><a href="history.html" class="">History</a></li>
+      <li><a href="places.html" class="">Places</a></li>
+      <li><a href="maps.html" class="">Maps</a></li>
+
+      <li><a href="notes.html" class="">All Notes</a></li>
+
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="methodology.html" class="">Methodology</a></li>
+      <li><a href="sources.html" class="">Sources</a></li>
+      <li><a href="archiverules.html" class="">Rules</a></li>
+      <li><a href="license.html" class="">License</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchNotes()">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+
+<h1 class='page-title'>About</h1>
+
+<div class="breadcrumb"><a href="index.html">Home</a> > <span>About</span></div><h1>About the Project</h1>
+<p>From the Hills and Foothills is an independent research and documentation project focused on the historical landscape of the Eastern Himalayan foothills and the Dooars region.</p>
+<p>The project seeks to collect, organize, and document historical references related to the region, including frontier history, settlement patterns, and geographical locations mentioned in historical sources.</p>
+<p>Much of the historical information about the Dooars region remains scattered across colonial records, gazetteers, and historical publications. This archive aims to gradually bring together these references into a structured and accessible digital resource.</p>
+<h2>Cultural Archive Scope</h2>
+<p>This archive also documents everyday life, places, language, and cultural memory of Nepali (Gorkhali) communities across:</p>
+<ul>
+<li>Dooars  </li>
+<li>Darjeeling hills  </li>
+<li>Sikkim  </li>
+</ul>
+<h3>Focus Areas</h3>
+<ul>
+<li>Places and landscapes  </li>
+<li>Everyday life and work  </li>
+<li>Language and cultural memory  </li>
+<li>Public cultural practices  </li>
+<li>Archival notes and references  </li>
+</ul>
+<h2>Curation Principles</h2>
+<ul>
+<li>No face or voice of the curator  </li>
+<li>Content sourced from public material or shared with permission  </li>
+<li>All content is credited  </li>
+<li>Respect over reach  </li>
+<li>Documentation over opinion  </li>
+</ul>
+<h2>Status</h2>
+<p>This archive is a living work and will grow gradually over time.</p>
+<h2>Contact</h2>
+<p>📧 <a href="mailto:hillsandfoothillsarchive@gmail.com">hillsandfoothillsarchive@gmail.com</a></p>
+
+</div>
+
+<script src="search_index.js"></script>
+
+<script>
+function searchNotes() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let resultsBox = document.getElementById("searchResults");
+
+  if (!input) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  let results = searchIndex.filter(item =>
+    item.title.toLowerCase().includes(input)
+  );
+
+  resultsBox.innerHTML = results
+    .slice(0, 10)
+    .map(r => `<div><a href="${r.url}">${r.title}</a></div>`)
+    .join("");
+}
+</script>
+
+</body>
+</html>

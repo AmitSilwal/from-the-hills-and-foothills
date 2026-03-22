@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/02_History/Frontier_Transition/1792_Bijni_Dispute.md",
+                "file": "content/02_History/Duar_War_1864_1865.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1792_Bijni_Dispute"
+              "title": "Duar_War_1864_1865.md"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 444.5
   },
   "right": {
     "id": "e5d199c6a79f0a25",
@@ -180,21 +180,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "e8217dbd99a52d58",
+  "active": "9aac49c35096e4c1",
   "lastOpenFiles": [
-    "warren-hastings.html",
-    "toorsa-river.html",
-    "timeline.html",
-    "tibet.html",
-    "teesta-river.html",
-    "tea-plantations-in-dooars.html",
-    "tea-estates-of-dooars.html",
-    "sankosh-river.html",
-    "samuel-turner.html",
-    "rungeet-river.html",
-    "research-event-template.html",
-    "content/02_History/Frontier_Transition/00_Timeline_Dooars.md",
+    "site/images/Dooars_Frontier_Map_1865.png",
+    "site/images",
+    "site/New folder",
+    "site/frontier-transition.html",
+    "site/sources.html",
+    "site/methodology.html",
+    "site/archiverules.html",
+    "site/about.html",
+    "content/archiverules.md",
+    "content/New Text Document.txt",
+    "content/sources.md",
+    "content/methodology.md",
+    "content/about.md",
+    "content/02_History/Frontier_Transition/Frontier_Transition.md",
+    "content/02_History/Frontier_Transition/New Text Document.txt",
+    "content/02_History/Frontier_Transition/1864_Duar_War_Campaign_Map.md",
+    "content/02_History/Ashley_Eden_Mission_1863_64/Preparation_for_Ashley_Eden_Mission_1863.md.md",
+    "content/02_History/Ashley_Eden_Mission_1863_64/Ashley_Eden_Mission_Paro_Phase_1864.md.md",
+    "content/02_History/Ashley_Eden_Mission_1863_64/Ashley_Eden_Mission_Journey_Phase_1863_64.md.md",
+    "content/02_History/Ashley_Eden_Mission_1863_64",
+    "content/02_History/Ashley_Eden_Mission_1863_64/Ashley_Eden_Mission_1863_64.md.md",
+    "content/02_History/Duar_War_1864_1865.md.md",
+    "content/02_History/Frontier_Transition/Frontier_Conflicts_1828_1864.md.md",
     "content/02_History/Frontier_Transition/1792_Bijni_Dispute.md",
+    "content/02_History/Frontier_Transition/00_Timeline_Dooars.md",
     "content/02_History/Frontier_Transition/1774_Bogle_Mission_to_Tibet.md",
     "content/02_History/Frontier_Transition/1772_British_Bhutan_Intercourse.md",
     "content/02_History/Frontier_Transition/00_Dooars_Frontier_System_Pre_1865.md",
@@ -206,19 +218,7 @@
     "content/06_Places/Rivers/Toorsa River.md.md",
     "content/06_Places/Rivers/Teesta_River.md.md",
     "content/06_Places/Rivers/Sankosh River.md.md",
-    "content/06_Places/Rivers/Raidak River.md.md",
-    "content/06_Places/Rivers/Jaldhaka River.md.md",
-    "content/06_Places/Maps/Dooars_Research_Map.png.md",
     "content/06_Places/Maps/Dooars_Research_Map.png",
-    "content/06_Places/Maps/Dooars_Historical_Map.md.md",
-    "content/06_Places/Maps/Dooars_Frontier_Map_1865.png.png",
-    "content/06_Places/Maps/Dooars_Frontier_Map.md.md",
-    "content/06_Places/Tibet.md.md",
-    "content/06_Places/Rungeet_River.md.md",
-    "content/06_Places/Punakha.md.md",
-    "content/06_Places/Places_Index.md.md",
-    "content/06_Places/Paro.md.md",
-    "content/06_Places/Maynaguri.md.md",
-    "content/06_Places/Koomrekatta.md.md"
+    "content/06_Places/Maps/Dooars_Frontier_Map_1865.png.png"
   ]
 }

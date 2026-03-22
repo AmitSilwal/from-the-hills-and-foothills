@@ -6,7 +6,7 @@ This map shows the frontier region between Bhutan and the Bengal plains before 1
 
 Related:
 [[00_Dooars_Frontier_System_Pre_1865]]
-[[1864_Duar_War]]
+[[Duar_War_1864_1865.md]]
 [[1865_Treaty_of_Sinchula]]
 
 ---

@@ -57,4 +57,4 @@ Repeated conflicts of this kind contributed to growing tensions between Bhutan a
 
 These tensions ultimately formed part of the background to the:
 
-- [[1864_Duar_War]]
+- [[Duar_War_1864_1865.md]]

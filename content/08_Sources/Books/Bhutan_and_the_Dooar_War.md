@@ -84,6 +84,6 @@ Must be compared with:
 
 ## Related Events
 
-- [[1864_Duar_War]]
+- [[Duar_War_1864_1865.md]]
 - [[Ashley_Eden_Mission_1864]]
 - [[1865_Treaty_of_Sinchula]]
