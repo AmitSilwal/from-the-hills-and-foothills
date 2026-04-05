@@ -1,0 +1,167 @@
+---
+type: war
+year: 1864
+region: dooars
+topic: frontier_conflict
+actors: british_india, bhutan
+period: pre_1865
+---
+
+
+---
+
+# 1864 Duar War
+Related:
+[[1864_Duar_War_Campaign_Map]]
+[[1864_Duar_War_Commanders]]
+[[Duar_War_Research_Hub]]
+## Overview
+
+The Duar War (1864–1865) was a military conflict between the British Government of India and the Kingdom of Bhutan. The war resulted in the annexation of the Bengal and Assam Dooars by British India.
+
+This conflict represents a major turning point in the political history of the Dooars.
+
+---
+
+## Background
+
+Throughout the late eighteenth and early nineteenth centuries, relations between Bhutan and the British Government were marked by disputes along the frontier.
+
+Key problems included:
+
+- Bhutanese raids into plains territories.
+- Disputes with local zamindars.
+- Conflicts over the control of frontier states such as Bijni.
+- Ongoing boundary disputes in the Dooars region.
+
+Earlier diplomatic attempts to resolve these tensions were unsuccessful.
+
+Related Notes:  
+[[1772_British_Bhutan_Intercourse]]  
+[[1792_Bijni_Dispute]]  
+[[1815_KishenKant_Bose_Mission]]
+
+---
+
+## Immediate Cause
+
+The immediate cause of the war was the failure of the British diplomatic mission led by:
+
+[[Ashley_Eden_Mission_1864]]
+
+The mission was sent to negotiate frontier disputes but ended unsuccessfully and increased tensions between the two governments.
+
+---
+
+## Military Campaign
+
+In **November 1864**, British forces launched military operations against Bhutan along the Dooars frontier.
+
+The British organized several military columns to advance from the plains of Bengal and Assam toward the Bhutan hills.
+
+### Beginning of the Campaign
+
+The campaign began with the movement of British troops from bases such as [[Jalpaiguri]] and [[Cooch_Behar]].
+
+On **28 November 1864**, an advance party crossed the [[Teesta_River]] near [[Jalpaiguri]].
+
+The Bhutan outpost at **Gopalgunge** was captured without resistance.
+
+---
+
+### Capture of Frontier Stockades
+
+The British forces then moved toward the Bhutan frontier stockades.
+
+The first important positions captured were:
+
+- [[Maynaguri]]
+- [[Dhamonee]]
+
+These stockades were abandoned by Bhutan forces and the local inhabitants submitted peacefully.
+
+---
+
+### Advance into the Foothills
+
+After securing the plains, British troops advanced toward the foothills of Bhutan.
+
+An important Bhutanese hill fort at:
+
+[[Dalimkote]]
+
+was attacked and captured.
+
+This position controlled an important route from the plains into the Bhutan hills.
+
+---
+
+### Control of the Dooar Passes
+
+Following the capture of Dalimkote, British forces secured several key passes between Bhutan and the plains.
+
+These included:
+
+- [[Chamurchi]]
+- [[Buxa]]
+- [[Balia]]
+
+Control of these passes effectively gave the British control over the frontier gateways known as the **Dooars**.
+
+---
+
+### Bhutanese Counterattack
+
+Bhutanese forces later launched counterattacks against British positions along the frontier.
+
+Heavy fighting occurred around:
+
+[[Dewangiri]]
+
+During these attacks the British garrison at Dewangiri was forced to withdraw.
+
+---
+
+### British Reinforcements
+
+After the setback at Dewangiri, British authorities reinforced their troops in the Dooars.
+
+New operations were organized to secure the frontier passes.
+
+Positions such as [[Balia]] and [[Chamurchi]] were secured again.
+
+Troops gathered at:
+
+[[Koomrekatta]]
+
+to prepare for further operations.
+
+---
+
+## End of the War
+
+The conflict ended with the signing of:
+
+[[1865_Treaty_of_Sinchula]]
+
+Under this treaty Bhutan ceded the Dooars to British India.
+
+---
+
+## Historical Significance
+
+The Duar War transformed the political geography of the region.
+
+Major outcomes included:
+
+1. British control of the Dooars.
+2. Establishment of colonial administration.
+3. Opening of the region for plantation development.
+
+The war marks the beginning of the colonial transformation of the Dooars.
+
+---
+
+## Source
+
+[[Bhutan_and_the_Dooar_War]]

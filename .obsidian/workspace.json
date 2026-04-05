@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "f02ab61e67283974",
+    "type": "split",
+    "children": [
+      {
+        "id": "acb2e75a931de8ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b187de4237ec0c52",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Index/Dooars_Research_Dashboard.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Dooars_Research_Dashboard.md"
+            }
+          },
+          {
+            "id": "ec146b1addd03764",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06_Places/Rivers/Teesta River.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teesta River.md"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc13879519dfe605",
+    "type": "split",
+    "children": [
+      {
+        "id": "6883d3e439fdb505",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58d46d6b8df56c67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fcb2767b18c16453",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6e73532852497ab9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 404.5
+  },
+  "right": {
+    "id": "f78d411d3467d9b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "6354341d1de837dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b3ce96c2ff2efe1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05_Data_Stats/Demographic_Profile_Dooars.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Demographic_Profile_Dooars.md"
+            }
+          },
+          {
+            "id": "f1de42d50fa8e115",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "05_Data_Stats/Demographic_Profile_Dooars.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Demographic_Profile_Dooars.md"
+            }
+          },
+          {
+            "id": "d7db01b65972f839",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "83ca1fe7a989f7b2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ce9ecae07f3da74f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05_Data_Stats/Demographic_Profile_Dooars.md.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Demographic_Profile_Dooars.md"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ec146b1addd03764",
+  "lastOpenFiles": [
+    "Publishing_Workflow.md",
+    "notes.html",
+    "search_index.js",
+    "convert.py",
+    "style.css",
+    "06_Places/Rivers/Toorsa River.md.md",
+    "New Text Document.txt",
+    "00_Index/Dooars_Research_Dashboard.md.md",
+    "06_Places/Rivers/Teesta River.md.md",
+    "06_Places/Rivers/Sankosh River.md.md",
+    "06_Places/Rivers/Raidak River.md.md",
+    "06_Places/Rivers/Jaldhaka River.md.md",
+    "06_Places/Rivers/yaml.md",
+    "02_History/Frontier_Transition/1842_Ambaree_Fallacottah_Dispute.md.md",
+    "02_History/Frontier_Transition/1839_Bhutanese_Frontier_Raids_and_Abductions.md.md",
+    "02_History/Frontier_Transition/1864_Ashley_Eden_Mission.md.md",
+    "02_History/Frontier_Transition/1828_Annexation_of_Assam_and_Bhutan_Frontier.md.md",
+    "00_Index/Research_Dashboard.md.md",
+    "02_History/Frontier_Transition/1864_Dooar_War.md.md",
+    "Templates/Research_Event_Template.md.md",
+    "00_Index/02_Dooars_Historical_Timeline.md.md",
+    "Templates",
+    "06_Places/Places_Index.md.md",
+    "02_History/Frontier_Transition/Duar_War_Research_Hub.md.md",
+    "06_Places/Tibet.md.md",
+    "06_Places/Rungeet_River.md.md",
+    "06_Places/Punakha.md.md",
+    "06_Places/Paro.md.md",
+    "06_Places/Maynaguri.md.md",
+    "06_Places/Dalimkote.md.md",
+    "06_Places/Chamurchi.md.md",
+    "06_Places/Maps/Dooars_Frontier_Map_1865.png.png",
+    "quartz-4/quartz-4/public/static/giscus/light.css",
+    "quartz-4/quartz-4/public/static/giscus/dark.css",
+    "quartz-4/quartz-4/public/static/giscus",
+    "quartz-4/quartz-4/public/index-og-image.webp",
+    "quartz-4/quartz-4/public/Dooars_River_System-og-image.webp",
+    "quartz-4/quartz-4/public/Dooars_Pre_1865-og-image.webp",
+    "quartz-4/quartz-4/public/Dooars_Geography_Identity-og-image.webp",
+    "quartz-4/quartz-4/public/Dooars_Geographical_Identity-og-image.webp",
+    "quartz-4/quartz-4/public/Dooars_Forest_Landscape-og-image.webp",
+    "quartz-4/quartz-4/public/Buxa-og-image.webp",
+    "quartz-4/quartz-4/public/1864_Duar_War-og-image.webp",
+    "quartz-4/quartz-4/public/10_Concepts/Plantation_System/Labour_Lines_Tea_Estates-og-image.webp",
+    "quartz-4/quartz-4/public/10_Concepts/Human_Geography/Precolonial_Settlement_Dooars.md.html",
+    "Untitled.canvas"
+  ]
+}
